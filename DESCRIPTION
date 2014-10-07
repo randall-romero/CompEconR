@@ -1,0 +1,14 @@
+Package: CompEconR
+Title: An R version of Miranda & Fackler's CompEcon toolbox for MATLAB
+Version: 0.1
+Authors@R: "Randall Romero-Aguilar <randall.romero@outlook.com> [aut, cre]"
+Description: This package contains an R alternative to Miranda & Fackler's
+    CompEcon Toolbox. The original CompEcon toolbox is written for MATLAB.
+Depends:
+    R (>= 3.1.1),
+    ref (>= 0.99),
+    Matrix (>= 1.1-4)
+License: MIT + file LICENSE
+LazyData: true
+Suggests:
+    testthat
